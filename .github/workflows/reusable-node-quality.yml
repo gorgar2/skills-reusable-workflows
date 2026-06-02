@@ -1,5 +1,5 @@
 name: Reusable Node Quality
-run-name: Node ${{ inputs.node-version }} Quality Checkss
+run-name: Node ${{ inputs.node-version }} Quality Checks
 
 on:
   workflow_call:
@@ -12,7 +12,7 @@ on:
 
 permissions:
   contents: read
-
+  
 jobs:
   lint:
     name: Lint
