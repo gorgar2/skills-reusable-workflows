@@ -52,7 +52,7 @@ jobs:
 
   github-pages:
     name: Deploy to GitHub Pages
-    needs: quality
+    needs: tests
     uses: ./.github/workflows/deploy-pages.yml
     with:
       node-version: "24"
